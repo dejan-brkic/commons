@@ -1,0 +1,30 @@
+contractEndDate: 2018-04-09T21:43:33.118Z
+contractStartDate: 2018-04-09T21:43:33.118Z
+customerId: '1'
+customerName: Ja
+engineLimits:
+  numberOfSites: 1
+licenseType: PERPETUAL
+limits:
+  SOCIAL:
+    SITE: 1
+    USER: 1
+  STUDIO:
+    SITE: 1
+    ITEM: 1
+    USER: 1
+  PROFILE:
+    SITE: 1
+    USER: 1
+  ENGINE:
+    SITE: 1
+profileLimits:
+  numberOfSites: 1
+  numberOfUsers: 1
+socialLimits:
+  numberOfItems: 1
+  numberOfSites: 1
+studioLimits:
+  numberOfItems: 1
+  numberOfSites: 1
+  numberOfUsers: 1

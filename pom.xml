@@ -15,6 +15,7 @@
         <module>audit</module>
         <module>git</module>
         <module>validation</module>
+        <module>licensing</module>
     </modules>
 
     <name>Crafter Commons</name>

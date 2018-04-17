@@ -1,0 +1,16 @@
+!!LicenseDetails
+contractEndDate: 2018-04-09T18:28:41.137Z
+contractStartDate: 2018-04-09T18:28:41.137Z
+customerId: '1'
+customerName: Ja
+engineLimits: {numberOfSites: 1}
+licenseType: PERPETUAL
+limits:
+  STUDIO: {!!LimitType 'USER': 1, !!LimitType 'ITEM': 1,
+    !!LimitType 'SITE': 1}
+  PROFILE: {!!LimitType 'USER': 1, !!LimitType 'SITE': 1}
+  SOCIAL: {!!LimitType 'USER': 1, !!LimitType 'SITE': 1}
+  ENGINE: {!!LimitType 'SITE': 1}
+profileLimits: {numberOfSites: 1, numberOfUsers: 1}
+socialLimits: {numberOfItems: 1, numberOfSites: 1}
+studioLimits: {numberOfItems: 1, numberOfSites: 1, numberOfUsers: 1}
