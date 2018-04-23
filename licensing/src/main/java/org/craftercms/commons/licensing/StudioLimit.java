@@ -1,22 +1,13 @@
 package org.craftercms.commons.licensing;
 
-public class StudioLimit implements UserLimit, SiteLimit, ItemLimit {
+public class StudioLimit implements UserLimit, SiteLimit, DescriptorLimit, AssetLimit {
 
     private static final long serialVersionUID = 486629718301939283L;
 
-    private int numberOfItems;
+    private int numberOfDescriptors;
+    private int numberOfAssets;
     private int numberOfSites;
     private int numberOfUsers;
-
-    @Override
-    public int getNumberOfItems() {
-        return numberOfItems;
-    }
-
-    @Override
-    public void setNumberOfItems(int numberOfItems) {
-        this.numberOfItems = numberOfItems;
-    }
 
     @Override
     public int getNumberOfSites() {
@@ -36,5 +27,25 @@ public class StudioLimit implements UserLimit, SiteLimit, ItemLimit {
     @Override
     public void setNumberOfUsers(int numberOfUsers) {
         this.numberOfUsers = numberOfUsers;
+    }
+
+    @Override
+    public int getNumberOfDescriptors() {
+        return numberOfDescriptors;
+    }
+
+    @Override
+    public void setNumberOfDescriptors(int numberOfDescriptors) {
+        this.numberOfDescriptors = numberOfDescriptors;
+    }
+
+    @Override
+    public int getNumberOfAssets() {
+        return numberOfAssets;
+    }
+
+    @Override
+    public void setNumberOfAssets(int numberOfAssets) {
+        this.numberOfAssets = numberOfAssets;
     }
 }

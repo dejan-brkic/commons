@@ -3,5 +3,7 @@ package org.craftercms.commons.licensing;
 public enum LimitType {
     USER,
     SITE,
-    ITEM
+    ITEM,
+    DESCRIPTOR,
+    ASSET
 }

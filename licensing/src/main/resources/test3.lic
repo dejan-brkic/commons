@@ -12,6 +12,7 @@ socialLimit:
   numberOfItems: 1
   numberOfSites: 1
 studioLimit:
-  numberOfItems: 1
+  numberOfDescriptors: 1
+  numberOfAssets: 1
   numberOfSites: 1
   numberOfUsers: 1

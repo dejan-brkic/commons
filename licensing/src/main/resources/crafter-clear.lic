@@ -1,0 +1,10 @@
+!!org.craftercms.commons.licensing.LicenseDetails
+contractEndDate: 2018-04-19T21:32:23.446Z
+contractStartDate: 2018-04-19T21:32:23.446Z
+customerId: '1'
+customerName: Ja
+engineLimit: {numberOfSites: 1}
+licenseType: PERPETUAL
+profileLimit: {numberOfSites: 1, numberOfUsers: 1}
+socialLimit: {numberOfItems: 1, numberOfSites: 1}
+studioLimit: {numberOfAssets: 1, numberOfDescriptors: 1, numberOfSites: 1, numberOfUsers: 1}

@@ -4,11 +4,11 @@ import org.craftercms.commons.licensing.exception.LicenseNotFoundException;
 
 public interface LicenseValidator {
 
-    boolean licenseExists(String licenseLocation);
+    boolean licenseExists();
 
-    boolean licenseExpired(String licenseLocation) throws LicenseNotFoundException;
+    boolean licenseExpired() throws LicenseNotFoundException;
 
-    boolean licenseViolated(String licenseLocation) throws LicenseNotFoundException;
+    boolean licenseViolated() throws LicenseNotFoundException;
 
-    boolean validateLimit(String licenseLocation, LicenseModule module, LimitType limitType, int currentValue) throws LicenseNotFoundException;
+    boolean validateLimit(LicenseModule module, LimitType limitType, int currentValue) throws LicenseNotFoundException;
 }
