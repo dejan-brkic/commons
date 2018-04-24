@@ -46,6 +46,55 @@
         </dependency>
     </dependencies>
 
+    <profiles>
+        <profile>
+            <id>community</id>
+            <activation>
+                <property>
+                    <name>buildType</name>
+                    <value>community</value>
+                </property>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-compiler-plugin</artifactId>
+                        <configuration>
+                            <excludes>
+                                <exclude>org/craftercms/commons/licensing/configuration/EnterpriseConfig.java</exclude>
+                                <exclude>org/craftercms/commons/licensing/SimpleLicenseValidator.java</exclude>
+                            </excludes>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
 
+        <profile>
+            <id>enterprise</id>
+            <activation>
+                <property>
+                    <name>buildType</name>
+                    <value>enterprise</value>
+                </property>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-compiler-plugin</artifactId>
+                        <configuration>
+                            <excludes>
+                                <exclude>org.craftercms.commons.licensing.configuration.CommunityConfig</exclude>
+                                <exclude>org.craftercms.commons.licensing.CommunityLicenseValidator</exclude>
+                            </excludes>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 
 </project>
