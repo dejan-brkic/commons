@@ -87,8 +87,8 @@
                         <artifactId>maven-compiler-plugin</artifactId>
                         <configuration>
                             <excludes>
-                                <exclude>org.craftercms.commons.licensing.configuration.CommunityConfig</exclude>
-                                <exclude>org.craftercms.commons.licensing.CommunityLicenseValidator</exclude>
+                                <exclude>org/craftercms/commons/licensing/configuration/CommunityConfig.java</exclude>
+                                <exclude>org/craftercms/commons/licensing/CommunityLicenseValidator.java</exclude>
                             </excludes>
                         </configuration>
                     </plugin>
