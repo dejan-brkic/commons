@@ -76,7 +76,7 @@
         <jsonpath.version>2.2.0</jsonpath.version>
         <logback.version>1.0.13</logback.version>
         <reactor.version>1.0.0.RELEASE</reactor.version>
-        <quartz.version>2.2.1</quartz.version>
+        <quartz.version>2.3.2</quartz.version>
         <swagger.springmvc.version>0.8.8</swagger.springmvc.version>
         <jgit.version>4.4.0.201606070830-r</jgit.version>
         <snakeyaml.version>1.17</snakeyaml.version>
@@ -135,7 +135,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
